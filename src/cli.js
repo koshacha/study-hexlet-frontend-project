@@ -10,6 +10,5 @@ export const greeting = () => {
 
 export const userEnter = (question) => {
   console.log(question);
-  const string = readlineSync.question('Your answer: ');
-  return string;
+  return readlineSync.question('Your answer: ');
 };

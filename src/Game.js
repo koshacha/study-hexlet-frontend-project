@@ -1,4 +1,5 @@
-import {userEnter} from "./cli.js";
+/* eslint-disable import/extensions */
+import {userEnter} from './cli.js';
 
 export default class Game {
   static SCORE_TO_WIN = 3;
