@@ -7,6 +7,10 @@ export default class Even extends Game {
     return Math.round(rand);
   }
 
+  getRules() {
+    return 'Answer "yes" if the number is even, otherwise answer "no".';
+  }
+
   createQuestion() {
     const number = this.generateNumber(0, 100);
     const isEven = number % 2 === 0;

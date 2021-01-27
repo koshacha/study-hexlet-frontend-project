@@ -30,12 +30,17 @@ export default class Game {
     return {};
   }
 
+  getRules() {
+    return '';
+  }
+
   startGame() {
     this.state = {
       ...this.state,
       isFault: false,
       score: 0,
     };
+    console.log(this.getRules());
 
     while (!this.isGameOver()) {
       const { question, answer } = this.createQuestion();

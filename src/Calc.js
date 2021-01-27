@@ -7,6 +7,10 @@ export default class Calc extends Game {
     return Math.round(rand);
   }
 
+  getRules() {
+    return 'What is the result of the expression?';
+  }
+
   generateOperation() {
     const num = this.generateNumber(1, 3);
     switch (num) {
