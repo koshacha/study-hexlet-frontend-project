@@ -4,4 +4,13 @@
 [![Actions Status](https://github.com/tlenkie/frontend-project-lvl1/workflows/linter-check/badge.svg)](https://github.com/tlenkie/frontend-project-lvl1/actions)
 
 ## Brain Even
+```bash
+brain-even
+```
 [![asciicast](https://asciinema.org/a/AARh6oxjeDzvakdc0PjcdyDrA.svg)](https://asciinema.org/a/AARh6oxjeDzvakdc0PjcdyDrA)
+
+## Brain Calc
+```bash
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/X8UzZwvfM4GWxszycTE4PQayg.svg)](https://asciinema.org/a/X8UzZwvfM4GWxszycTE4PQayg)

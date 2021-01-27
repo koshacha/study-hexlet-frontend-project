@@ -31,8 +31,8 @@ export default class Calc extends Game {
   }
 
   createQuestion() {
-    const numberA = this.generateNumber(0, 10);
-    const numberB = this.generateNumber(0, 10);
+    const numberA = this.generateNumber(1, 15);
+    const numberB = this.generateNumber(1, 15);
     const operand = this.generateOperation();
     const result = this.getResult(numberA, numberB, operand);
     return {
