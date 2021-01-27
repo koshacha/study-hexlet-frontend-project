@@ -20,3 +20,9 @@ brain-calc
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/frfNLS9yL1bM8frGRdsmJde6i.svg)](https://asciinema.org/a/frfNLS9yL1bM8frGRdsmJde6i)
+
+## Brain Progression
+```bash
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/FuPhWKukFoE7BwvV1KojHfQEr.svg)](https://asciinema.org/a/FuPhWKukFoE7BwvV1KojHfQEr)
