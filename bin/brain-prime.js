@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /* eslint-disable import/extensions */
 
-import Prime from '../src/Prime.js';
+import game from '../src/game-bootstrap.js';
+import { primeGame } from '../src/game-rules.js';
 import { greeting } from '../src/cli.js';
 
 const name = greeting();
-const game = new Prime({ name });
-game.startGame();
+game(name, primeGame());
